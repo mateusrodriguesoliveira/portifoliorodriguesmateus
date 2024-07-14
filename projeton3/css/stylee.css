@@ -1,0 +1,156 @@
+header, footer {
+    background-color: #000000ea;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sesao2 {
+    background-image: url('../imagens/bgg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.c{
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    background-image: url('../imagens/bgg.jpg');
+    padding: 50px 0;
+}
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .content img {
+    max-width: 100%;
+    height: auto;
+}
+.hero .text {
+    max-width: 50%;
+}
+.hero .text h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+.hero .text h4 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+.hero .text p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.companies,
+.works {
+    padding: 50px 0;
+}
+.companies .logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+.works .card {
+    margin-bottom: 30px;
+}
+.container{
+    text-align: left;
+}
+.container2{
+    text-align: center;
+}
+.contact-card {
+    background-color: #ddffe8;
+    padding: 30px;
+    border-radius: 23px;
+    text-align: center;
+}
+.companies {
+    text-align: center;
+}
+
+.companies h2 {
+    margin: 20px 0;
+}
+
+.company-logo {
+    background: #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about, .skills, .education {
+    padding: 40px;
+}
+
+.about h2, .skills h2, .education h2 {
+    margin-bottom: 20px;
+}
+
+.about p, .education-item {
+    background: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.skillH {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/html.png');
+}
+.skillC {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/css.png');
+}
+.skillP {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/photoshop.png');
+}
+.skillR {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/premiere.png');
+}
+.skillF {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/figma.png');
+}
+.skillN {
+    width: 100px;
+    height: 100px;
+    background-image: url('../imagens/notion.png');
+}
